@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Mono";
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: 'Mono';
+}
+
+#circle{
+    background: rgb(36,33,202);
+background: linear-gradient(0deg, rgba(36,33,202,-.1) 0%, rgba(78,33,202,1) 100%);
+}
+
+#left{
+    background: rgb(46,43,233);
+background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+}

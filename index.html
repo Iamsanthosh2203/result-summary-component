@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Summary</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Global Conatiner -->
+    <div class="flex bg-white h-auto justify-center items-center md:h-screen">
+      <!-- Main Container -->
+      <main class="flex flex-col md:flex-row w-full md:w-[55%]">
+        <!-- Left container -->
+        <div
+          id="left"
+          class="rounded-b-3xl md:rounded-3xl shadow-xl flex px-8 py-8 basis-1/2 text-center flex-col z-10 gap-4"
+        >
+          <h1 class="text-[#c8c7ff] text-2xl mb-4 font-bold">Your Result</h1>
+
+          <div
+            id="circle"
+            class="rounded-full h-[12em] w-[12em] self-center flex flex-col items-center text-white justify-center"
+          >
+            <span class="text-6xl mb-2 font-bold">76</span>
+            <p>of 100</p>
+          </div>
+
+          <h3 class="text-3xl font-semibold text-white">Great</h3>
+
+          <p class="text-sm md:text-xl font-light text-[#c8c7ff] p-3">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+
+        <!-- Right Container -->
+        <div
+          class="flex basis-1/2 flex-col p-6 md:pr-14 md:pl-20 rounded-r-3xl shadow-xl relative md:-left-5"
+        >
+          <h2 class="text-2xl font-semibold mb-10">Summary</h2>
+
+          <!-- Contents -->
+          <div class="flex flex-col gap-5 mb-6">
+            <!-- Continer 1 -->
+            <div
+              class="rounded-xl justify-between flex gap-4 w-full p-4 text-[#ff5757] bg-[#ff5757] bg-opacity-10 font-semibold"
+            >
+              <div class="flex gap-2">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  width="25"
+                  alt=""
+                  srcset=""
+                />
+
+                <p>Reaction</p>
+              </div>
+
+              <p class="text-gray-400 font-semibold"><span class="text-black"> 80 </span> / 100 </p>
+            </div>
+
+            <!-- Continer 2 -->
+            <div
+            class="rounded-xl justify-between flex gap-4 w-full p-4 text-[#ffb01f] bg-[#ffb01f] bg-opacity-10 font-semibold"
+          >
+            <div class="flex gap-2">
+              <img
+                src="assets/images/icon-memory.svg"
+                width="25"
+                alt=""
+                srcset=""
+              />
+
+              <p>Memory</p>
+            </div>
+
+            <p class="text-gray-400 font-semibold"><span class="text-black"> 92 </span> / 100 </p>
+          </div>
+
+          <!-- Container 3 -->
+          <div
+          class="rounded-xl justify-between flex gap-4 w-full p-4 text-[#00bd91] bg-[#00bd91] bg-opacity-10 font-semibold"
+        >
+          <div class="flex gap-2">
+            <img
+              src="assets/images/icon-verbal.svg"
+              width="25"
+              alt=""
+              srcset=""
+            />
+
+            <p>Verbal</p>
+          </div>
+
+          <p class="text-gray-400 font-semibold"><span class="text-black"> 61 </span> / 100 </p>
+        </div>
+
+        <!-- Container 4 -->
+        <div
+        class="rounded-xl justify-between flex gap-4 w-full p-4 text-[#1125d4] bg-[#1125d4] bg-opacity-10 font-semibold"
+      >
+        <div id="test" class="flex gap-2">
+          <img
+            src="assets/images/icon-visual.svg"
+            width="25"
+            alt=""
+            srcset=""
+          />
+
+          <p>Visual</p>
+        </div>
+
+        <p class="text-gray-400 font-semibold"><span class="text-black"> 71 </span> / 100 </p>
+      </div>
+
+      
+    </div>
+    <button class="btn rounded-xl bg-[#303b5a] hover:bg-gradient-to-b from-[#7857ff] to-[#2e2be9] p-4 text-white">Contiune</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
